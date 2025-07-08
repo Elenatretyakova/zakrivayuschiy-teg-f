@@ -17,7 +17,7 @@
   background-image: var(--background);
   background-attachment: fixed;
   background-size: cover;
-  font-variation-settings: var(--wdth);
+  font-variation-settings: 'wght' 400;
 }
 
 .header {
@@ -57,7 +57,7 @@
 .card_tittle {
   font-size: 18px;
   padding: 5px 10px;
-  font-variation-settings: var(--wdth-bold);
+  font-variation-settings: 'wght' 700;
 }
 
 .container__card__picture {
@@ -132,7 +132,6 @@
 
 .card__text {
   padding: 25px;
-  font-weight: var(--font-regular);
   font-size: 18px;
   line-height: 21px;
   border-top: var(--border);
@@ -245,7 +244,6 @@
   background-color: #fff;
   font-family: var(--accent-font);
   font-size: 14px;
-  font-weight: 400;
   transition: box-shadow 0.3s ease;
   overflow: hidden;
   cursor: pointer;
