@@ -104,7 +104,11 @@
   object-position: top;
 }
 
-.filter-bright-saturate {
+.filter-brightness {
+  filter: brightness(80%);
+}
+
+.filter-brightness-saturate {
   filter: brightness(80%) saturate(80%);
 }
 
@@ -112,18 +116,22 @@
   filter: sepia(10%);
 }
 
-.filter-bright {
-  filter: brightness(80%);
-}
-
 .filter-saturate {
+  filter: saturate(80%);
   object-position: bottom;
-  filter: saturate(50%);
 }
 
-.filter-blur-bright {
+.filter-blur-brightness {
+  filter: blur(4px) brightness(80%);
   object-position: bottom;
-  filter: blur(4px) brightness(60%);
+}
+
+.filter-grayscale {
+  filter: grayscale(0.2);
+}
+
+.filter-invert {
+  filter: invert(10%);
 }
 
 .card__text {
