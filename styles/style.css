@@ -17,7 +17,7 @@
   background-image: var(--background);
   background-attachment: fixed;
   background-size: cover;
-  font-variation-settings: var(--font-regular);
+  font-variation-settings: var(--wdth);
 }
 
 .header {
@@ -57,7 +57,7 @@
 .card_tittle {
   font-size: 18px;
   padding: 5px 10px;
-  font-weight: var(--font-bold);
+  font-variation-settings: var(--wdth-bold);
 }
 
 .container__card__picture {

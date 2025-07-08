@@ -13,7 +13,7 @@
   font-weight: 400 785;
   src:
     local('Inter-Variable'),
-    url(./Inter-Variable.woff2) format('woff supports variations'),
+    url(./Inter-Variable.woff2) format('woff2 supports variations'),
     url(./Inter-Variable.woff2) format('woff2-variations');
 }
 /* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */

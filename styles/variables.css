@@ -25,8 +25,8 @@
   --heading-margin-top: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
   --heading-margin-right: clamp(0.875rem, -1.4688rem + 10vw, 7.53125rem);
   --border: 2px solid #000;
-  --font-regular: 400;
-  --font-bold: 700;
+  --wdth: 400;
+  --wdht-bold: 700;
   --name: #000;
   --animation-fill-color: #ff0000;
   --contour-color: var(--animation-fill-color);
